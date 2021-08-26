@@ -22,11 +22,11 @@ namespace Classes
 
             The constructor will set the value of the public properties
         */
-        public Company(string name, DateTime StartDate, List<Employee> Employee)
+        public Company(string name, DateTime StartDate)
         {
             Name = name;
             CreatedOn = StartDate;
-            List<Employee> Employees = new List<Employee>() { };
+            Employees = new List<Employee>();
         }
 
         public void ListEmployees(Employee Employee)
