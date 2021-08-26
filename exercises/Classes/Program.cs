@@ -13,8 +13,8 @@ namespace Classes
 
             Company Acme = new Company(
                 "Acme",
-                new DateTime(2018, 3, 18),
-                new List<Employee>() { }
+                new DateTime(2018, 3, 18)
+            // new List<Employee>() { }
             );
 
 
