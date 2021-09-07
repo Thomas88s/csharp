@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Garage
 {
-    public class Corvette : Vehicle // Propellor light aircraft
+    public class Corvette : Vehicle// Propellor light aircraft
     {
         public double FuelCapacity { get; set; }
 
